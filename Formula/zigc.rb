@@ -1,28 +1,28 @@
 class Zigc < Formula
   desc "C/C++ project & package manager powered by Zig's build system"
   homepage "https://github.com/nathanjmorton/zigc"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/nathanjmorton/zigc/releases/download/v#{version}/zigc-aarch64-macos.tar.gz"
-      sha256 "988fb20dab77527b2ac65f09774dccdc85bdbf6bf4956d8b9d96ef1ee2811cd6"
+      sha256 "851bc4d53c6a68d372e614c0a1b7bf5f53eb7fdc77104271ae054f8340f28f7f"
     end
     on_intel do
       url "https://github.com/nathanjmorton/zigc/releases/download/v#{version}/zigc-x86_64-macos.tar.gz"
-      sha256 "e9edf79604b320f693293c12e83e72a33128c904629bb1582a42e1189193f3e2"
+      sha256 "07735935e6616dc4acac01684008e0037e2bc5498839045d100f03e24dc5113f"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/nathanjmorton/zigc/releases/download/v#{version}/zigc-aarch64-linux-gnu.tar.gz"
-      sha256 "5787bdfdfd4b8e2d4e831c7101954174ee1b1fb27487662fe1534afe06dad069"
+      sha256 "98d9912e0f669f99dcb41459fdd9ef92a103c456e71f2fac8988dcef75b66e34"
     end
     on_intel do
       url "https://github.com/nathanjmorton/zigc/releases/download/v#{version}/zigc-x86_64-linux-gnu.tar.gz"
-      sha256 "3b5957d8ba7221aa7600314f977062f23f332a96c692bfbc16a12bfac3ccaef7"
+      sha256 "5352471274a9044ae12ab6023885d1fcdc3e7705f67e3ee0b8313776aa683bd9"
     end
   end
 
